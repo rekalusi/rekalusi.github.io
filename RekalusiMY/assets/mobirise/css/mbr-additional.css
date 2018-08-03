@@ -1764,7 +1764,7 @@ body {
 .cid-qXUaeXJ94T {
   padding-top: 105px;
   padding-bottom: 90px;
-  background: linear-gradient(45deg, #ffffff, #ffffff);
+  background-image: url("../../../assets/images/mbr-1631x1080.jpg");
 }
 @media (min-width: 992px) {
   .cid-qXUaeXJ94T .mbr-figure {
@@ -6837,7 +6837,7 @@ body {
 .cid-qWyiOtwyd4 {
   padding-top: 105px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #b2ffff;
 }
 .cid-qWyiOtwyd4 .mbr-section-subtitle {
   color: #767676;
