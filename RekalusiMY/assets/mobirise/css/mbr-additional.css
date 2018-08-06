@@ -3604,6 +3604,18 @@ body {
 .cid-qM5xNdv67v .mbr-section-subtitle {
   color: #767676;
 }
+.cid-qZYrs741Co {
+  background: #ffffff;
+}
+.cid-qZYrs741Co .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-qZYrs741Co .video-block {
+    width: 100% !important;
+  }
+}
 .cid-qOW3gtEdZo {
   background: #149dcc;
   background: linear-gradient(0deg, #149dcc, #ffffff);
