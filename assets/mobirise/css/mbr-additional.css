@@ -4666,6 +4666,8 @@ body {
   color: #232323;
 }
 .cid-qXUpnCuuxo {
+  padding-top: 105px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-qXUpnCuuxo SPAN {
@@ -5065,7 +5067,7 @@ body {
   color: #232323 !important;
 }
 .cid-qMdN85Te1m {
-  padding-top: 120px;
+  padding-top: 105px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
@@ -5177,10 +5179,10 @@ body {
   }
 }
 .cid-qMdN85Te1m .foot-title {
-  text-align: center;
+  text-align: left;
 }
 .cid-qMdN85Te1m .mbr-links-column {
-  text-align: center;
+  text-align: left;
   color: #767676;
 }
 .cid-qMdN85Te1m .foot-title B {
@@ -6282,7 +6284,7 @@ body {
 .cid-qIKxVZXqTf {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ffff;
+  background-color: #b2ffff;
 }
 .cid-qIKxVZXqTf .media-container-row .mbr-text {
   color: #232323;
