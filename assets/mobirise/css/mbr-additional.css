@@ -4532,7 +4532,7 @@ body {
   height: 25px;
   border-radius: 50%;
   border-radius: 0;
-  content: 'âœ“';
+  content: '✓';
 }
 .cid-qMb4gLomHW .mbr-text UL {
   text-align: left;
@@ -6284,7 +6284,7 @@ body {
 .cid-qIKxVZXqTf {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ffffff;
+  background-color: #b2ffff;
 }
 .cid-qIKxVZXqTf .media-container-row .mbr-text {
   color: #232323;
