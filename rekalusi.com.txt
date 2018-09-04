@@ -1,0 +1,58 @@
+﻿; Domain: rekalusi.com
+; Exported (y-m-d hh:mm:ss): 2018-09-04 09:14:51
+;
+; This file is intended for use for informational and archival
+; purposes ONLY and MUST be edited before use on a production
+; DNS server.
+;
+; In particular, you must update the SOA record with the correct
+; authoritative name server and contact e-mail address information,
+; and add the correct NS records for the name servers which will
+; be authoritative for this domain.
+;
+; For further information, please consult the BIND documentation
+; located on the following website:
+;
+; http://www.isc.org/
+;
+; And RFC 1035:
+;
+; http://www.ietf.org/rfc/rfc1035.txt
+;
+; Please note that we do NOT offer technical support for any use
+; of this zone data, the BIND name server, or any other third-
+; party DNS software.
+;
+; Use at your own risk.
+
+
+; SOA Record
+rekalusi.com.	3600	 IN 	SOA	ns61.domaincontrol.com.	dns.jomax.net. (
+					2018090405
+					28800
+					7200
+					604800
+					3600
+					) 
+
+; A Records
+@	600	 IN 	A	185.199.111.153
+
+; CNAME Records
+www	600	 IN 	CNAME	rekalusi.github.io.
+
+; MX Records
+
+; TXT Records
+@	600	 IN 	TXT	"google-site-verification=-ct36y2EOoQfFeCHlItno5v7kivcJ2uRVt7ubs91y-c"
+
+; SRV Records
+
+; AAAA Records
+
+; CAA Records
+
+; NS Records
+@	3600	 IN 	NS	ns69.domaincontrol.com.
+@	3600	 IN 	NS	ns70.domaincontrol.com.
+
