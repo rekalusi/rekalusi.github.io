@@ -1372,26 +1372,26 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
-.cid-r4YCwuRQCw {
+.cid-r54WFHmbZi {
   background: #ffffff;
 }
-.cid-r4YCwuRQCw .image-block {
+.cid-r54WFHmbZi .image-block {
   margin: auto;
   width: 100% !important;
 }
-.cid-r4YCwuRQCw .mbr-figure {
+.cid-r54WFHmbZi .mbr-figure {
   margin: 0 auto;
 }
-.cid-r4YCwuRQCw figcaption {
+.cid-r54WFHmbZi figcaption {
   position: relative;
 }
-.cid-r4YCwuRQCw figcaption div {
+.cid-r54WFHmbZi figcaption div {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 @media (max-width: 768px) {
-  .cid-r4YCwuRQCw .image-block {
+  .cid-r54WFHmbZi .image-block {
     width: 100% !important;
   }
 }
@@ -1418,10 +1418,44 @@ body {
     width: 100% !important;
   }
 }
+.cid-r4YOqWNQk5 {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-image: url("../../../assets/images/landing-cover-720-x-720-4-1500x1500.jpg");
+}
+.cid-r4YOqWNQk5 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-r4YOqWNQk5 .media-row {
+  display: flex;
+  justify-content: center;
+}
+.cid-r4YOqWNQk5 .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
+}
+.cid-r4YOqWNQk5 .team-item .item-image img {
+  width: 100%;
+}
+.cid-r4YOqWNQk5 .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-r4YOqWNQk5 .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-r4YOqWNQk5 .team-item .item-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cid-r4YOqWNQk5 .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
 .cid-r4YTZEzx3D {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 45px;
-  background-color: #ffffff;
+  background: url("../../../assets/images/landing-cover-720-x-720-4-1500x1500.jpg");
 }
 .cid-r4YTZEzx3D .mbr-section-subtitle {
   color: #767676;
@@ -1513,42 +1547,31 @@ body {
 .cid-r4YTZEzx3D H2 {
   color: #149dcc;
 }
-.cid-r4YOqWNQk5 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/grass-225x225.jpg");
+.cid-r4YTZEzx3D H5 {
+  text-align: center;
 }
-.cid-r4YOqWNQk5 .mbr-section-subtitle {
-  color: #767676;
+.cid-r550uJoqaf {
+  background: #ffffff;
 }
-.cid-r4YOqWNQk5 .media-row {
-  display: flex;
-  justify-content: center;
+.cid-r550uJoqaf .image-block {
+  margin: auto;
+  width: 100% !important;
 }
-.cid-r4YOqWNQk5 .team-item {
-  transition: all .2s;
-  margin-bottom: 2rem;
+.cid-r550uJoqaf .mbr-figure {
+  margin: 0 auto;
 }
-.cid-r4YOqWNQk5 .team-item .item-image img {
+.cid-r550uJoqaf figcaption {
+  position: relative;
+}
+.cid-r550uJoqaf figcaption div {
+  position: absolute;
+  bottom: 0;
   width: 100%;
 }
-.cid-r4YOqWNQk5 .team-item .item-name p {
-  margin-bottom: 0;
-}
-.cid-r4YOqWNQk5 .team-item .item-role p {
-  margin-bottom: 0;
-}
-.cid-r4YOqWNQk5 .team-item .item-social {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.cid-r4YOqWNQk5 .team-item .item-social .socicon {
-  color: #232323;
-  font-size: 17px;
-}
-.cid-r4YOqWNQk5 .team-item .item-caption {
-  background: #efefef;
+@media (max-width: 768px) {
+  .cid-r550uJoqaf .image-block {
+    width: 100% !important;
+  }
 }
 .cid-r4YJiWAFLe .google-map {
   height: 25rem;
@@ -1584,7 +1607,7 @@ body {
 .cid-r4YL7QzOhq {
   padding-top: 60px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/mbr-1920x1440.jpg");
+  background-image: url("../../../assets/images/landing-cover-720-x-720-4-1500x1500.jpg");
 }
 .cid-r4YL7QzOhq .title {
   margin-bottom: 2rem;
@@ -1617,7 +1640,7 @@ body {
 .cid-r4YNeNo9uQ {
   padding-top: 30px;
   padding-bottom: 15px;
-  background-image: url("../../../assets/images/mbr-1920x1440.jpg");
+  background-image: url("../../../assets/images/landing-cover-720-x-720-4-1500x1500.jpg");
 }
 .cid-r4YNeNo9uQ [class^="socicon-"]:before,
 .cid-r4YNeNo9uQ [class*=" socicon-"]:before {
@@ -1643,6 +1666,6 @@ body {
 }
 .cid-r4YWBf7Ln4 {
   padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #073b4c;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/allishaarmizi-4-1500x1500.jpg");
 }
