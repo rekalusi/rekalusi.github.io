@@ -2034,6 +2034,18 @@ body {
 .cid-r7zYZqygcv H2 {
   color: #000000;
 }
+.cid-r92oaTuFHK {
+  background: #ffffff;
+}
+.cid-r92oaTuFHK .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-r92oaTuFHK .video-block {
+    width: 100% !important;
+  }
+}
 .cid-r91ccsOlcr {
   padding-top: 30px;
   padding-bottom: 15px;
@@ -2671,18 +2683,6 @@ body {
 }
 .cid-r8yhkU0tfR H2 {
   color: #000000;
-}
-.cid-r91R3AYIy7 {
-  background: #ffffff;
-}
-.cid-r91R3AYIy7 .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-r91R3AYIy7 .video-block {
-    width: 100% !important;
-  }
 }
 .cid-r8yh1J9ZbQ {
   background: #ffffff;
