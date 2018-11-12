@@ -1767,7 +1767,7 @@ body {
 }
 .cid-r5gA2c5kNP {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-r5gA2c5kNP .mbr-section-subtitle {
@@ -1801,9 +1801,17 @@ body {
   color: #767676;
 }
 .cid-r48btepKCz {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+  padding-top: 30px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/nikon-600x337-600x337.jpg");
+}
+.cid-r5gcOTJgRU {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/fb-page-cover-705x482.jpg");
+}
+.cid-r5gcOTJgRU H3 {
+  text-align: left;
 }
 .cid-r48kF2ReuG {
   padding-top: 30px;
@@ -1812,14 +1820,6 @@ body {
 }
 .cid-r48kF2ReuG .btn {
   margin: 0 0 .5rem 0;
-}
-.cid-r5gcOTJgRU {
-  padding-top: 105px;
-  padding-bottom: 105px;
-  background-image: url("../../../assets/images/fb-page-cover-705x482.jpg");
-}
-.cid-r5gcOTJgRU H3 {
-  text-align: left;
 }
 .cid-qIKxVZXqTf {
   padding-top: 30px;
