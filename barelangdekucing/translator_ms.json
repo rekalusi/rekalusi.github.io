@@ -1,0 +1,155 @@
+{
+    "title": "Malay",
+    "language": "ms",
+    "type": "addon",
+    "groups": {
+        "translator": [
+            {
+                "phrase": "Mobirise Translator",
+                "translate": "Penterjemah Mobirise",
+                "active": true
+            },
+            {
+                "phrase": "Select language:",
+                "translate": "Pilih Bahasa:",
+                "active": true
+            },
+            {
+                "phrase": "Add language",
+                "translate": "Tambah bahasa",
+                "active": true
+            },
+            {
+                "phrase": "Delete",
+                "translate": "buang",
+                "active": true
+            },
+            {
+                "phrase": "Select program unit:",
+                "translate": "Pilih unit program:",
+                "active": true
+            },
+            {
+                "phrase": "Interface",
+                "translate": "Antara muka",
+                "active": true
+            },
+            {
+                "phrase": "Language file successfully deleted!",
+                "translate": "Fail bahasa berjaya dipadam!",
+                "active": true
+            },
+            {
+                "phrase": "Error removal language file!",
+                "translate": "Fail bahasa penyingkiran ralat!",
+                "active": true
+            },
+            {
+                "phrase": "Themes",
+                "translate": "Tema",
+                "active": true
+            },
+            {
+                "phrase": "Extensions",
+                "translate": "Sambungan",
+                "active": true
+            },
+            {
+                "phrase": "Phrase",
+                "translate": "Frasa",
+                "active": true
+            },
+            {
+                "phrase": "Translate",
+                "translate": "Terjemah",
+                "active": true
+            },
+            {
+                "phrase": "Save",
+                "translate": "Simpan",
+                "active": true
+            },
+            {
+                "phrase": "A translation was saved successfully!",
+                "translate": "Terjemahan telah berjaya disimpan!",
+                "active": true
+            },
+            {
+                "phrase": "translate file rewrite error",
+                "translate": "menterjemahkan kesilapan menulis semula fail",
+                "active": true
+            },
+            {
+                "phrase": "There are no translations. Click to \"ADD LANGUAGE\".",
+                "translate": "Tiada terjemahan. Klik untuk \"ADD LANGUAGE\".",
+                "active": true
+            },
+            {
+                "phrase": "Parameter \"groups\" in translate file is empty!",
+                "translate": "Parameter \"kumpulan\" dalam menterjemahkan fail kosong!",
+                "active": true
+            },
+            {
+                "phrase": "Cancel",
+                "translate": "batalkan",
+                "active": true
+            },
+            {
+                "phrase": "Ok",
+                "translate": "OK",
+                "active": true
+            },
+            {
+                "phrase": "Please choose the language.",
+                "translate": "Sila pilih bahasa",
+                "active": true
+            },
+            {
+                "phrase": "Error create new translation file!",
+                "translate": "Ralat membuat fail terjemahan baru!",
+                "active": true
+            },
+            {
+                "phrase": "EDIT",
+                "translate": "EDIT",
+                "active": true
+            },
+            {
+                "phrase": "Phrases",
+                "translate": "Frasa",
+                "active": true
+            },
+            {
+                "phrase": "Translations",
+                "translate": "Terjemahan",
+                "active": true
+            },
+            {
+                "phrase": "total",
+                "translate": "Keseluruhan",
+                "active": true
+            },
+            {
+                "phrase": "untranslated",
+                "translate": "Tidak terjemah",
+                "active": true
+            },
+            {
+                "phrase": "Import",
+                "translate": "Import",
+                "active": true
+            },
+            {
+                "phrase": "Export",
+                "translate": "Eksport",
+                "active": true
+            }
+        ]
+    },
+    "unit": {
+        "name": "translator",
+        "title": "Mobirise Translator",
+        "type": "plugin"
+    },
+    "author": "info.rekalusi@gmail.com"
+}
