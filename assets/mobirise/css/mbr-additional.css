@@ -5113,8 +5113,35 @@ body {
 .cid-qMbjxarEzU .dropdown-item:hover {
   color: #232323 !important;
 }
+.cid-rdbcKW6K9f {
+  padding-top: 15px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rdbcKW6K9f .title {
+  margin-bottom: 2rem;
+}
+.cid-rdbcKW6K9f .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rdbcKW6K9f a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rdbcKW6K9f a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rdbcKW6K9f .multi-horizontal {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  max-width: 100%;
+}
+.cid-rdbcKW6K9f .input-group-btn {
+  display: block;
+  text-align: center;
+}
 .cid-r5g49XKNA9 {
-  padding-top: 120px;
+  padding-top: 15px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
