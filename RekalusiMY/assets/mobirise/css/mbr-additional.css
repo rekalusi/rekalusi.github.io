@@ -683,6 +683,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1382,7 +1383,7 @@ body {
   }
 }
 .cid-r5gzQsYo47 {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 60px;
   background-color: #ffffff;
 }
@@ -1390,7 +1391,7 @@ body {
   color: #767676;
 }
 .cid-r48MgInnqc {
-  padding-top: 120px;
+  padding-top: 30px;
   padding-bottom: 30px;
   background-image: url("../../../assets/images/3706-converted-01-2-1500x1500.jpg");
 }
