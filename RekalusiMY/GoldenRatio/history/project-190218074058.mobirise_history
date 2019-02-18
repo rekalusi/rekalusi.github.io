@@ -1,0 +1,813 @@
+{
+  "settings": {
+    "name": "rekalulsi.com | Golden Ratio",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#000000"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.9.1",
+    "siteFonts": [],
+    "uniqCompNum": 58,
+    "versionPublish": "4.9.1",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "rekalusi.com | Penggunaan Nisbah Dalam Rekabentuk",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/using-golden-ratio-in-your-design.gif\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rim37bxks0",
+          "_anchor": "image2-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Using golden ratio in your design</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rim3vkSM9x",
+          "_anchor": "content4-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            "& when not (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "text-align": "center"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"40\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">During the 1800s, Mathematicians &amp; Philosopher Adolf Zeising, found the golden ratio is expressed in the arrangement of parts such as leaves and branches along the stems of plants and of veins in leaves.<br><br>Later, to the skeletons of animals and the branchings of their veins and nerves. In these patterns in nature he saw the golden ratio operating as a universal law.&nbsp;<br><br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/adolf-zeising-e2de5fb3-9e64-4855-a762-df10c47d62f-resize-750-300x300.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rim4gJNGmJ",
+          "_anchor": "content7-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"66\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"122\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/efeublatt-744x673.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">length of&nbsp;<b>a</b> is proportionate to lenght of&nbsp;<b>b</b></p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/golden-ratio-nautilus-510x510.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Inner shell structure that has golden ratio value</p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "rim51Ykild",
+          "_anchor": "content13-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    So what is a golden ratio?</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rim7TZ8qR1",
+          "_anchor": "content4-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"75\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"35\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>The golden ratio is also called the <b>golden mean</b> or <b>golden section</b> \n\n<span style=\"font-size: 1rem;\">. Other names include <b>medial section</b>, <b>divine&nbsp;</b></span><b style=\"font-size: 1rem;\">proportion</b><span style=\"font-size: 1rem;\">, </span><b style=\"font-size: 1rem;\">divine section</b><span style=\"font-size: 1rem;\">&nbsp;, </span><b style=\"font-size: 1rem;\">golden \n\n&nbsp;</b><b style=\"font-size: 1rem;\">proportion</b><span style=\"font-size: 1rem;\">, and </span><b style=\"font-size: 1rem;\">golden number</b><span style=\"font-size: 1rem;\">.</span></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rim8416oeL",
+          "_anchor": "content9-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-img": {
+              "background-color": "#fff"
+            },
+            ".card-box": {
+              "padding": "2rem",
+              "& when (@crdBg)": {
+                "background-color": "@crdColor"
+              }
+            },
+            "h4": {
+              "font-weight": "500",
+              "margin-bottom": "0",
+              "text-align": "left"
+            },
+            "p": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "text-align": "center"
+            },
+            ".card-wrapper": {
+              "height": "100%",
+              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+              "transition": "box-shadow 0.3s",
+              "&:hover": {
+                "box-shadow": "0px 0px 30px 0px rgba(0, 0, 0, 0.05)",
+                "transition": "box-shadow 0.3s"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".my-col": {
+                "flex": "0 0 20%",
+                "max-width": "20%",
+                "padding": "15px",
+                "-webkit-flex": "0 0 20%"
+              }
+            }
+          },
+          "_name": "features17",
+          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Card Background\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\" condition=\"crdBg\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/1920px-golden-ratio-line.svg-1920x1109.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            No Coding\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/270px-golden-rectangle-detailed.svg-1024x910.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobile Friendly\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">The figure shown, illustrates the geometric relationship.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/270px-golden-rectangle-detailedspiral-01-1-816x1027.png\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unique Styles\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            By incorporating quarter-arc curve across two sides of perfect square will form a golden spiral if scaled 1.618 smaller in a multiplied sequence - This is known as the fibonacci Spiral.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/background4.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/background5.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            No Coding\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/background6.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobile Friendly\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rincvDAkFy",
+          "_anchor": "features17-k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>The fact that the number is an <a href=\"https://en.wikipedia.org/wiki/Golden_ratio#Irrationality\">irrational number</a>, for design &amp; creative purposes, Golden ratio number is generally agreed at 1 : 1.618. </p><p>In <a href=\"https://en.wikipedia.org/wiki/Visual_design_elements_and_principles\">design principles</a>, incorporating ratio in your visual artwork or structure is considered as design staple.</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rinaRWPKiB",
+          "_anchor": "content1-j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".images-container.container-fluid": {
+              "padding": "0"
+            },
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              },
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "image4",
+          "_customHTML": "<section group=\"Images & Videos\">\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"86\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"112\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\">\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\" condition=\"showCaption\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n    <div class=\"container images-container\" mbr-class=\"{'container-fluid':fullWidth,container:fullWidth==false}\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/golden-ratio-1280-x-720-cover-foto6-1-1086x611.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsive\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/goldentratio-example2-464x305.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile friendly\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "rincLxqVPA",
+          "_anchor": "image4-l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".images-container.container-fluid": {
+              "padding": "0"
+            },
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              },
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "image4",
+          "_customHTML": "<section group=\"Images & Videos\">\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"271\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\">\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#ffffff\" condition=\"showCaption\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n    <div class=\"container images-container\" mbr-class=\"{'container-fluid':fullWidth,container:fullWidth==false}\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/golden-ratio-1280-x-720-cover-foto2-1086x623.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsive\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/fd10c111640bfabdd39975877fb54238-541x829.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile friendly\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "rincOMZKtO",
+          "_anchor": "image4-m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Why using golden ratio is so important?</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "ringbS5hQE",
+          "_anchor": "content4-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "text-align": "center"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"70\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/a1u8aahmxpl-436x544.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><br>Scientifically what we defined as \"beauty\" is classified by proportion according to Gary B. Meisner in the book \"<a href=\"https://g.co/kgs/Wfr6sw\">The golden Ratio : The Divine Beauty of mathematics</a>\". <br><br>When the size or spaces between the objetcs of an image or a structure is seen as proportionally correct, it is regarded as \"beautiful\" or \"visually pleasing\" by the viewer.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rinfcao4eK",
+          "_anchor": "content6-o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>This formula has long been adopted &amp; facinated by many historical figures throughout the century, the usage of golden ratio can be seen in their paintings, architectural masterpiece, designs, or photo compositions &amp; other creations.</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-q",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rinhb60PDw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"179\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\">\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/golden-ratio-1280-x-720-cover-foto4-1-1376x774.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsive\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/neufert-big-man-780x659.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile friendly\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "rinhDLdl1K",
+          "_anchor": "content13-r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"220\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\">\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/swamp-fibonacci-1280x905.jpg\" alt=\"\" title=\"\">\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsive\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/leonardo-mona-lisa-golden-mean-beauty-780x1175.jpg\" alt=\"\" title=\"\">\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile friendly\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_anchor": "content13-u",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rinks4ZOwo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/raphael-athens-left-to-right-golden-ratios.gif\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-w",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rinmyWCq1n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background": "@bgColor",
+            ".media-container-row": {
+              "margin": "0 auto",
+              "align-items": "stretch",
+              "-webkit-align-items": "stretch",
+              ".img-item": {
+                "display": "-webkit-flex",
+                "flex-direction": "column",
+                "justify-content": "center",
+                "position": "relative",
+                "width": "100%",
+                "z-index": "1",
+                "-webkit-flex-direction": "column",
+                "-webkit-justify-content": "center",
+                "img": {
+                  "width": "100%",
+                  "min-height": "1px"
+                },
+                ".img-caption": {
+                  "background": "@cpBg",
+                  "z-index": "2",
+                  "padding": "1rem 1rem",
+                  "word-break": "break-word",
+                  "p": {
+                    "margin-bottom": "0"
+                  }
+                },
+                "&.item1": {
+                  "padding": "0 2rem 0 0"
+                }
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".img-item": {
+                "width": "100% !important",
+                "&.item1": {
+                  "width": "100%",
+                  "flex-basis": "initial !important",
+                  "padding": "0 0 2rem 0 !important",
+                  "-webkit-flex-basis": "initial !important"
+                }
+              }
+            }
+          },
+          "_name": "content13",
+          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"100\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"33\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\">\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/2068bb1d4bd5be147687e70b3f739d73-680x1133.jpg\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsive\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/taj-mahal.gif\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile friendly\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
+          "_cid": "rini25IRBZ",
+          "_anchor": "content13-s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".media-container-row .mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">rekalusi.com 2018</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "footer6-x",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rinoosr3HU",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
