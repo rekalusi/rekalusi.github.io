@@ -1779,6 +1779,9 @@ body {
 .cid-r5gA2c5kNP .mbr-section-subtitle {
   color: #767676;
 }
+.cid-rjaJVfXQXO {
+  background-image: url("../../../assets/images/golden-ratio-1280-x-720-cover-foto2-2000x1123.jpg");
+}
 .cid-r47ZA2nRVO {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3694,6 +3697,18 @@ body {
 }
 .cid-qM5xNdv67v .mbr-section-subtitle {
   color: #767676;
+}
+.cid-rjaZpPWAAN {
+  background: #ffffff;
+}
+.cid-rjaZpPWAAN .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-rjaZpPWAAN .video-block {
+    width: 100% !important;
+  }
 }
 .cid-qXU7x47MFd {
   background: #ffffff;
@@ -5729,14 +5744,34 @@ body {
 }
 .cid-qILnBhDnzr {
   padding-top: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-qILnBhDnzr .mbr-section-subtitle {
   color: #767676;
 }
+.cid-rjaOgKTGPa {
+  background: #ffffff;
+}
+.cid-rjaOgKTGPa .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-rjaOgKTGPa .video-block {
+    width: 100% !important;
+  }
+}
+.cid-rjaP8JgwTA {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rjaP8JgwTA .mbr-section-subtitle {
+  color: #767676;
+}
 .cid-qILnBizArz {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
