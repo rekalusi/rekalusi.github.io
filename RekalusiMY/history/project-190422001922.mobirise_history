@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "rekalusi.com | Revolusi Digital",
-    "currentPage": "index.html",
+    "currentPage": "illustration.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,7 @@
     "cookiesAlert": "",
     "versionFirst": "4.5.2",
     "uniqCompNum": 205,
-    "versionPublish": "4.9.7",
+    "versionPublish": "4.9.3",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "siteFonts": [
