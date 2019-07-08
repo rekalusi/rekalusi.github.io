@@ -58,7 +58,9 @@
     "siteUrl": "https://rekalusi.com/",
     "sitemapSwitcherAuto": "on",
     "gdpr": "",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/TOSHIBA/Desktop/Website%20ENG"
   },
   "pages": {
     "index.html": {
