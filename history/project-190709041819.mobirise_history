@@ -65,7 +65,7 @@
       "settings": {
         "main": true,
         "title": "rekalusi.com | Top Marketing Advertiser in Malaysia",
-        "meta_descr": "In aiming to become the Top Online Marketing Advertiser in Malaysia, rekalusi.com serves as a place where we share  digital content such as Logo design, Creative Writing, Digital prints, Illustration or Publishing, Video or Audio or Animation Production, Web Design, 360 Virtual Reality Tours, Seach Engine Optimization SEO, Search  Display Video Advertising Google Marketing with Website Analytics Reports. Digital Revolution",
+        "meta_descr": "In aiming to become the Top Online Marketing Advertiser in Malaysia, rekalusi.com serves as a place where we share  digital content such as Logo design, Creative Writing, Digital prints, Illustration or Publishing, Video or Audio or Animation Production, Web Design, 360 Virtual Reality Tours, Seach Engine Optimization (SEO), Search / Display / Video Advertising, Google Marketing with Website Analytics Reports.\n\n\"Digital Revolution\"",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -813,7 +813,7 @@
     "services.html": {
       "settings": {
         "title": "rekalusi.com | Product & Services",
-        "meta_descr": "listings for product and services that are from our previous projects. Interested parties are adviced to contact us directly for FREE CONSULTATION & QUOTATION. Visit our sponsors such as shopee lazada uniqlo zaful zalora godaddy kaspersky trivago traveloka  malaysia airlines printcious and wedding official website for the latest promotion discounts and updates",
+        "meta_descr": "listings for product & services that are from our previous projects. Interested parties are adviced to contact us directly for FREE CONSULTATION & QUOTATION. Visit our sponsors such as shopee lazada uniqlo zaful zalora godaddy kaspersky trivago traveloka  malaysia airlines printcious and wedding official website for the latest promotion discounts and updates!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -1266,11 +1266,11 @@
           "_name": "header16",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                    Digital Illustration &amp; Repairs<br></h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rvEOIPzrTx",
-          "_anchor": "header16-76",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header16-76"
         },
         {
           "_styles": {
@@ -2186,7 +2186,7 @@
     "360vr.html": {
       "settings": {
         "title": "rekalusi.com | Virtual Reality 360 Virtual Tour : The White House",
-        "meta_descr": "Through keen interest and dedicated research and development, we gratefully announce that we have come into the primary stages of developing our very 360 Virtual Reality Video. 360 degree videos are also known as immersive videos or spherical videos. Video recordings where a view in every direction is recorded at the same time, shot using an omnidirectional camera or a collection of cameras. During playback the viewer has control of the viewing direction like a panorama. Here is our rendition of 360 Virtual Reality video \n\nRekalusi 360 Virtual Tour The White House",
+        "meta_descr": "Through keen interest and dedicated research and development, we gratefully announce that we have come into the primary stages of developing our very 360 Virtual Reality Video. 360-degree videos are also known as immersive videos or spherical videos. \n\nVideo recordings where a view in every direction is recorded at the same time, shot using an omni-directional camera or a collection of cameras. During playback the viewer has control of the viewing direction like a panorama. Here's our rendition of 360 Virtual Reality video \n\n\"Rekalusi 360 Virtual Tour : The White House\".",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -2675,7 +2675,7 @@
     "tnc.html": {
       "settings": {
         "title": "rekalusi.com | Term &amp; Conditions",
-        "meta_descr": "Term and Conditions",
+        "meta_descr": "Term & Conditions",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -4026,7 +4026,7 @@
     "about.html": {
       "settings": {
         "title": "rekalusi.com | About Rekalusi",
-        "meta_descr": "Rekalusi is a Malaysian based freelance digital advertising agency that was established in Jun 2017. The word rekalusi is taken from both Malay word reka, meaning design and iIusi meaning illusion.\nWe strive everyday in creating product and services that are cost effective, diverse in media integration, seemless in design & function with unlimited security.",
+        "meta_descr": "Rekalusi is a Malaysian based freelance digital advertising agency that was established in Jun 2017. The word \"rekalusi\" is taken from both Malay word \"reka\", meaning design and \"iIusi\" meaning illusion.\nWe strive everyday in creating product & services that are cost effective, diverse in media integration, seemless in design & function with unlimited security.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -4881,7 +4881,7 @@
     },
     "onlineresume.html": {
       "settings": {
-        "meta_descr": "Hi, I am Hafiz Othman. I am currently\ndoing freelance work in Multimedia field. This covers\nWeb design, printing and product design, painting and \ndigital illustrations, 3D modelling, Video, Audio and Animation production. I am currently experimenting with social media marketing.",
+        "meta_descr": "Hi, I am Hafiz Othman. I am 35 years old and I am currently\ndoing freelance work in Multimedia field. This covers\nWeb design, printing and product design, painting and \ndigital illustrations, 3D modelling, Video, \nAudio and Animation production. I am currently experimenting\nwith social media marketing.",
         "title": "Digital Site | Mohd Hafiz Othman Online Resume",
         "order": 7
       },
@@ -5491,7 +5491,7 @@
     },
     "ticketcounter.html": {
       "settings": {
-        "meta_descr": "rekalusi.com online counters are not necessarily has to be just for selling tickets. online counters can be utilized in inviting buyers and goers in events such as concerts, wedding, formal dinner, registrations forms, private invites and many more. ",
+        "meta_descr": "rekalusi.com online counters are not necessarily has to be just for selling tickets. online counters can be utilized in inviting buyers & goers in events such as concerts, wedding, formal dinner, registrations forms, private invites and many more. ",
         "title": "Digital Site | Ticket Counter",
         "order": 8
       },
